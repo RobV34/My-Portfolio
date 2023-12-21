@@ -1,0 +1,25 @@
+/* Footer.css */
+
+.site-footer {
+    background-color: black;
+    color: #4682b4; /* White text for contrast */
+    font-weight: 700;
+    padding: 20px 0;
+    text-align: center;
+    
+  }
+  
+  .footer-content {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .footer-section p {
+    margin: 5px 0; /* Space out the text a bit */
+    color: #4682b4; /* White text for contrast */
+  }
+  
+  

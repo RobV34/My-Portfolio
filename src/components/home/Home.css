@@ -1,0 +1,58 @@
+.hero-section {
+    position: relative; /* Needed for absolute positioning of the pseudo-element */
+    height: 800px; /* Set the height */
+    background-image: url('/public/Images/background-image.png'); /* Path to your image */
+    background-size: cover; /* Cover the entire section */
+    background-position: center; /* Center the image */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align:center;
+    
+  }
+  
+  /* Semi-transparent Overlay */
+  .hero-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(255, 255, 255, 0.6); /* White with 50% opacity */
+    z-index: 1; /* Sit on top */
+  }
+  
+  /* Content of hero-section should be placed on top of the overlay */
+  .hero-section > * {
+    position: relative;
+    z-index: 2;
+  }
+  
+  .hero-section h1 {
+    font-size: 3rem; /* Large font size for the main heading */
+    font-weight: 700; /* Bold font weight */
+    color: black; /* White color text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Text shadow for readability */
+    margin-bottom: 0.5rem; /* Adjust spacing between the heading and paragraph */
+  }
+
+  .hero-section p {
+    font-size: 1.5rem; /* Larger font size for the paragraph */
+    color: black; /* White color text for contrast */
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5); /* Text shadow for readability */
+    max-width: 60%; /* Limit width of paragraph to maintain readability */
+    margin: 0 auto; /* Center the paragraph in the section */
+  }
+
+  @media (max-width: 768px) {
+    .hero-section h1 {
+      font-size: 2.5rem;
+    }
+  
+    .hero-section p {
+      font-size: 1.2rem;
+      max-width: 80%;
+    }
+  }

@@ -1,0 +1,45 @@
+
+/* About.css */
+
+.about-container {
+    color: #333; /* Dark text for readability */
+    background-color: #f0f7ff; /* Light blue background */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    margin: auto;
+  }
+  
+  h2, h3 {
+    color: #006699; /* Blue tones from the portfolio theme */
+  }
+  
+  p {
+    line-height: 1.6;
+    color: #555; /* Slightly lighter than the headings for contrast */
+  }
+  
+  /* Styling for the headers to match the portfolio's modern look */
+  h2 {
+    border-bottom: 2px solid #006699;
+    padding-bottom: 5px;
+  }
+  
+  h3 {
+    color: #004466;
+    margin-top: 20px;
+  }
+  
+  /* You may also want to add media queries for responsiveness */
+  @media (max-width: 768px) {
+    .about-container {
+      padding: 10px;
+    }
+  
+    h2, h3 {
+      font-size: smaller;
+    }
+  }
+
+  

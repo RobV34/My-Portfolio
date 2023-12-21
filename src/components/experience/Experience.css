@@ -1,0 +1,79 @@
+/* Experience.css */
+
+.experience-container {
+    padding: 20px;
+    background-color: #f0f7ff; /* Light blue background, similar to other sections */
+    color: #333; /* Dark text for readability */
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .experience-section h2 {
+    color: #006699; /* Blue tone for headings */
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .experience-entry {
+    padding: 15px;
+    border-radius: 4px;
+    background-color: #e6f2ff; /* Slightly darker blue background for entries */
+    margin-bottom: 10px;
+  }
+  
+  .experience-entry h3 {
+    color: #004466; /* Darker blue for job titles */
+    margin-bottom: 5px;
+  }
+  
+  .experience-entry p {
+    font-style: italic;
+    margin-bottom: 10px;
+  }
+  
+  ul {
+    padding-left: 20px;
+  }
+  
+  li {
+    margin-bottom: 5px;
+  }
+  
+  /* Custom styling for slick slider arrows */
+  .slick-arrow {
+    display: block !important;
+    background: #006699 !important; /* Blue background for arrows */
+    border-radius: 50% !important;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px; /* Vertically center the arrow icon */
+    z-index: 1;
+  }
+  
+  .slick-arrow:before {
+    color: #fff !important; /* White color for arrow icons */
+    font-size: 20px;
+  }
+  
+  .slick-dots li button:before {
+    color: #006699; /* Blue dots to match the theme */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #004466 !important; /* Darker blue for active dot */
+  }
+  
+  /* Responsive design adjustments */
+  @media (max-width: 768px) {
+    .experience-container {
+      padding: 10px;
+    }
+  
+    .experience-section h2 {
+      font-size: larger;
+    }
+  }
+  

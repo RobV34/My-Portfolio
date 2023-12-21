@@ -1,0 +1,52 @@
+
+/* Nav.css */
+.nav-container {
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-image: linear-gradient(45deg, #5592b1ad, #0a262f5c); /* A subtle gradient */
+  color: black; /* White text color */
+  text-align: center;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2); /* Adds a subtle shadow to the navbar */
+}
+
+.nav-header {
+  padding: 1rem 0; /* Spacing above and below the header text */
+}
+
+.nav-header h1 {
+  margin: 0;
+  font-weight: 800;
+  font-size: 2.5rem;
+  color:black;
+}
+
+.nav-bar {
+  display: flex;
+  justify-content: center; /* Centers the navigation links */
+  padding: 15px;
+  margin: 10px;
+}
+
+.nav-bar a {
+  text-decoration: none; /* Removes the underline from links */
+  color: black; /* White text color */
+  padding: 10px 15px; /* Spacing around the link text */
+  margin: 0 10px; /* Spacing between links */
+  border-radius: 4px; /* Slightly rounded corners for the links */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  font-size: 1.7rem;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.nav-bar a:hover, .nav-bar a:focus {
+  background-color: white; /* Darker background on hover/focus */
+}
+
+@media (max-width: 768px) {
+  .nav-bar {
+    flex-direction: column; /* Stack the links vertically on smaller screens */
+  }
+
+  .nav-bar a {
+    margin: 5px 0; /* Adjust spacing for stacked links */
+  }
+}
