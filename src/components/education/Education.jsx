@@ -8,17 +8,23 @@ function Education() {
   <h2>Education & Credentials</h2>
 
   <div className="education-entry">
-    <h3>Full Stack Development Program</h3>
-    <p>Keyin College, St. John's NL - Expected Graduation 2024</p>
+    <h3>Software Development</h3>
+    <p>Pass with Distinction August 2024</p>
+    <p>Keyin College, St. John's, NL</p>
   </div>
 
   <div className="education-entry">
     <h3>Microcredentials & Certifications</h3>
     <ul>
-      <li>AWS Certifications (3) - 1 of 3 completed</li>
-      <li>CTT Cyber Security Technician Credential - Date of Completion: Feb 18/24</li>
-      <li>Technical Sales Credential - Date of Completion: Feb 18/24</li>
-      <li>Artificial Intelligence Microcredential - Date of Completion: Dec 21/23</li>
+      <li>Google Agile Project Management</li>
+      <li>AWS Cloud Foundations</li>
+      <li>AWS Cloud Developer</li>
+      <li>AWS Cloud Arcitect</li>
+      <li>Dev-Ops and Software Design</li>
+      <li>Front-End Software Developer</li>
+      <li>Back-End Software Developer</li>
+      <li>Software Foundations</li>
+      <li>Generative AI</li>
     </ul>
   </div>
 
