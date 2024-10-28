@@ -8,11 +8,13 @@ function About() {
     <div className="about-container">
       <h2>About Me</h2>
             <p>
-                Hello! I'm a passionate full-stack developer in the making, 
-                currently transitioning from a successful career in project management 
-                and business development to the dynamic world of tech. 
-                This exciting mid-life career change reflects my love for continuous learning 
-                and growth.
+            Agile-focused project manager with a passion for coaching and
+leading teams to deliver high-quality solutions. Experienced in
+applying Scrum and Kanban methodologies to drive efficiency,
+foster collaboration, and achieve project goals. Proven ability in
+team leadership, organization, and communication. Successfully
+managed multiple large construction projects with diverse
+subcontractors, ensuring timely delivery of high-quality results.
             </p>
             
             <h3>Family Life</h3>

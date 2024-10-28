@@ -84,7 +84,7 @@ function Experience() {
     </ul>
   </div>
 
-  <div className="experience-entry">
+  {/* <div className="experience-entry">
     <h3>Internship</h3>
     <p>SmartDoor Technologies Jan 2024</p>
     <img src="/Images/smart.png" alt="Short Atlantic Inc" />
@@ -94,7 +94,7 @@ function Experience() {
       <li>App development</li>
       
     </ul>
-  </div>
+  </div> */}
   </Slider>
 
 </section>
